@@ -1,0 +1,32 @@
+{
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png",
+    "darkSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/c1ad4645-2f7e-42b5-9e74-b0d16832e0a4/favicon-transparent-e844b351-bde8-4f9e-8dac-382f8a87547a/logo-logo.png",
+    "darkSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/c1ad4645-2f7e-42b5-9e74-b0d16832e0a4/favicon-transparent-e844b351-bde8-4f9e-8dac-382f8a87547a/logo-logo.png"
+  },
+  "pages/wellbeing/vr-beach": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2200183776"
+  },
+  "pages/wellbeing/vr-personal": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2266848929"
+  },
+  "pages/wellbeing/vr-forest": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/859650656"
+  },
+  "pages/wellbeing/vr-mountain": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1159495128"
+  },
+  "pages/radiation/solar-event": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2288830404"
+  }
+}

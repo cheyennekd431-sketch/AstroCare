@@ -1,0 +1,282 @@
+{
+  "header": {
+    "title": "Health history",
+    "subtitle": "Medical records, symptom log and long-term trends across the mission.",
+    "syncNote": "Synced from the crew medical station · 2 h ago"
+  },
+  "months": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov"],
+  "trends": [
+    {
+      "id": "bone",
+      "label": "Bone mineral density",
+      "unit": "g/cm²",
+      "value": "1.18",
+      "status": "watch",
+      "baseline": 1.214,
+      "series": [1.21, 1.203, 1.196, 1.19, 1.185, 1.18],
+      "note": "Countermeasure exercise is slowing the loss; still above the mission action limit of -2%."
+    },
+    {
+      "id": "muscle",
+      "label": "Lean muscle mass",
+      "unit": "kg",
+      "value": "54.2",
+      "status": "watch",
+      "baseline": 56,
+      "series": [56, 55.4, 54.9, 54.5, 54.3, 54.2],
+      "note": "Quadriceps respond slower than calves to the ARED prescription — plan adjusted on day 145."
+    },
+    {
+      "id": "heart",
+      "label": "Resting heart rate",
+      "unit": "bpm",
+      "value": "64",
+      "status": "normal",
+      "baseline": 72,
+      "series": [72, 70, 68, 67, 66, 64],
+      "note": "Steady decline reflecting cardiovascular deconditioning — controlled by daily cardio."
+    },
+    {
+      "id": "sleep",
+      "label": "Average sleep",
+      "unit": "h/night",
+      "value": "7.2",
+      "status": "watch",
+      "baseline": 7.8,
+      "series": [7.9, 7.7, 7.5, 7.1, 7.3, 7.2],
+      "note": "Dip after the day 140 particle event alert; recovering with adjusted light schedule."
+    }
+  ],
+  "categories": [
+    {
+      "id": "immunity",
+      "name": "Immunity",
+      "blurb": "Defenses, latent virus screening and vaccination status.",
+      "records": [
+        {
+          "id": "immunity-panel",
+          "title": "Immune panel",
+          "day": "Day 146",
+          "date": "2026-11-12",
+          "detail": "White cell count within flight norms. T-cell activity stable at 96% of pre-flight response."
+        },
+        {
+          "id": "immunity-virus",
+          "title": "Latent virus screening",
+          "day": "Day 132",
+          "date": "2026-10-30",
+          "detail": "No reactivation of latent Epstein-Barr virus. Saliva sample negative."
+        }
+      ]
+    },
+    {
+      "id": "laboratory",
+      "name": "Laboratory",
+      "blurb": "Blood, urine and metabolic samples from the medical station.",
+      "records": [
+        {
+          "id": "lab-blood",
+          "title": "Blood draw — metabolism",
+          "day": "Day 147",
+          "date": "2026-11-13",
+          "detail": "Glucose, lipids and electrolytes in range. Hemoglobin 14.1 g/dL."
+        },
+        {
+          "id": "lab-urine",
+          "title": "Urinalysis",
+          "day": "Day 140",
+          "date": "2026-11-06",
+          "detail": "Hydration markers good. Calcium excretion slightly elevated — expected in microgravity."
+        }
+      ]
+    },
+    {
+      "id": "cardiovascular",
+      "name": "Cardiovascular",
+      "blurb": "Heart function, rhythm and aerobic capacity.",
+      "records": [
+        {
+          "id": "cardio-echo",
+          "title": "Echo & ECG review",
+          "day": "Day 148",
+          "date": "2026-11-14",
+          "detail": "Rhythm normal, ejection fraction 58%. Cardiac muscle mass -4% vs. pre-flight baseline."
+        },
+        {
+          "id": "cardio-vo2",
+          "title": "VO2 max test",
+          "day": "Day 141",
+          "date": "2026-11-07",
+          "detail": "88% of pre-flight value, maintained by daily ARED and treadmill sessions."
+        }
+      ]
+    },
+    {
+      "id": "bone",
+      "name": "Bone density",
+      "blurb": "DEXA scans of load-bearing bones and spine.",
+      "records": [
+        {
+          "id": "bone-femur",
+          "title": "DEXA — femoral neck",
+          "day": "Day 147",
+          "date": "2026-11-13",
+          "detail": "1.18 g/cm², -1.2% vs. pre-flight. Loss rate slowing to 0.4% per quarter."
+        },
+        {
+          "id": "bone-spine",
+          "title": "Spinal scan",
+          "day": "Day 140",
+          "date": "2026-11-06",
+          "detail": "Lumbar BMD -1.8%. Intervertebral discs slightly over-hydrated, as expected in orbit."
+        }
+      ]
+    },
+    {
+      "id": "muscle",
+      "name": "Muscle mass",
+      "blurb": "Muscle volume and strength testing.",
+      "records": [
+        {
+          "id": "muscle-mri",
+          "title": "MRI — thigh volume",
+          "day": "Day 146",
+          "date": "2026-11-12",
+          "detail": "Thigh MRI: quadriceps -8.4%, calves -5.1% vs. pre-flight volume."
+        },
+        {
+          "id": "muscle-strength",
+          "title": "Strength battery",
+          "day": "Day 145",
+          "date": "2026-11-11",
+          "detail": "Knee extension at 88% of baseline. Grip strength nominal."
+        }
+      ]
+    },
+    {
+      "id": "neuro",
+      "name": "Neurological",
+      "blurb": "Vision, cognition and nervous system.",
+      "records": [
+        {
+          "id": "neuro-vision",
+          "title": "Vision check (SANS)",
+          "day": "Day 132",
+          "date": "2026-10-30",
+          "detail": "Slight far-vision blur noted; optic disc flat. Weekly monitoring continues."
+        },
+        {
+          "id": "neuro-cognition",
+          "title": "Cognitive test battery",
+          "day": "Day 148",
+          "date": "2026-11-14",
+          "detail": "Reaction time and spatial memory within 5% of pre-flight results."
+        }
+      ]
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "sym-headache",
+      "name": "Headache",
+      "date": "2026-11-13",
+      "duration": "2 h",
+      "intensity": "Mild",
+      "location": "Frontal",
+      "note": "Resolved after fluid salts and rest."
+    },
+    {
+      "id": "sym-back",
+      "name": "Lower back stiffness",
+      "date": "2026-11-12",
+      "duration": "1 day",
+      "intensity": "Mild",
+      "location": "Lumbar",
+      "note": "Eases after the morning ARED session."
+    },
+    {
+      "id": "sym-eyes",
+      "name": "Eye strain",
+      "date": "2026-11-10",
+      "duration": "Evening",
+      "intensity": "Mild",
+      "location": "Both eyes",
+      "note": "Far-vision blur; reading glasses help."
+    },
+    {
+      "id": "sym-sleep",
+      "name": "Short sleep",
+      "date": "2026-11-06",
+      "duration": "3 nights",
+      "intensity": "Moderate",
+      "location": "—",
+      "note": "Followed the solar particle event alert on day 140."
+    },
+    {
+      "id": "sym-sore",
+      "name": "Muscle soreness",
+      "date": "2026-11-04",
+      "duration": "6 h",
+      "intensity": "Mild",
+      "location": "Quadriceps",
+      "note": "Normal response after resistance day."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl-baseline",
+      "kind": "exam",
+      "date": "2026-06-10",
+      "title": "Pre-flight baseline",
+      "detail": "Full medical, dental and psychological baseline completed before launch."
+    },
+    {
+      "id": "tl-launch",
+      "kind": "event",
+      "date": "2026-06-20",
+      "title": "Launch & docking",
+      "detail": "Docked with the space station — mission day 1."
+    },
+    {
+      "id": "tl-first-scan",
+      "kind": "exam",
+      "date": "2026-07-15",
+      "title": "First in-flight scan",
+      "detail": "First in-flight body scan; all systems nominal."
+    },
+    {
+      "id": "tl-radn2",
+      "kind": "monitoring",
+      "date": "2026-08-30",
+      "title": "Radi-N2 online",
+      "detail": "Neutron radiation detector activated at the service window."
+    },
+    {
+      "id": "tl-vision",
+      "kind": "event",
+      "date": "2026-10-30",
+      "title": "Vision change noted",
+      "detail": "Mild far-vision blur recorded; weekly SANS checks scheduled."
+    },
+    {
+      "id": "tl-bone-scan",
+      "kind": "exam",
+      "date": "2026-11-13",
+      "title": "Bone & muscle scan",
+      "detail": "Femur and lumbar scans compared against pre-flight baseline."
+    },
+    {
+      "id": "tl-today",
+      "kind": "monitoring",
+      "date": "2026-11-14",
+      "title": "Today",
+      "detail": "Mission day 148. Records up to date, no open alerts."
+    }
+  ],
+  "timelineFilters": [
+    { "id": "all", "label": "All" },
+    { "id": "exam", "label": "Exams" },
+    { "id": "monitoring", "label": "Monitoring" },
+    { "id": "event", "label": "Events" }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png",
+    "searchQuery": "A minimalist futuristic emblem for AstroCare, a spacecraft medical monitoring co",
+    "alternatives": [],
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-original-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+    },
+    "mockupUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+    },
+    "landscapeMockupUrlMap": {},
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png": {
+        "sessionId": "3cdce79a-7ad1-42e2-963d-c95c75f8faf5",
+        "logoId": "4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd",
+        "groupId": "a077aae4-3c8b-46fd-9a12-c367ba3e3290"
+      }
+    },
+    "productMockupsMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-mug-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-card-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-tshirt-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-box-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+        }
+      ]
+    },
+    "productMockups": [
+      {
+        "type": "mug",
+        "label": "Mug",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-mug-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+      },
+      {
+        "type": "card",
+        "label": "Business Card",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-card-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+      },
+      {
+        "type": "tshirt",
+        "label": "T-Shirt",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-tshirt-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+      },
+      {
+        "type": "box",
+        "label": "Packaging",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-mockup-box-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png"
+      }
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-14T16:32:50.493Z",
+    "lastUpdated": "2026-11-14T16:33:25.016Z",
+    "surfaceMode": "dark",
+    "generatedForSurfaceColor": "#0a1420",
+    "darkSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/3cdce79a-7ad1-42e2-963d-c95c75f8faf5/horizontal-transparent-4fc56c7c-74c6-4be8-9dc6-c9a2f398f1fd/logo-logo.png",
+    "logoGroupId": "a077aae4-3c8b-46fd-9a12-c367ba3e3290"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/c1ad4645-2f7e-42b5-9e74-b0d16832e0a4/favicon-transparent-e844b351-bde8-4f9e-8dac-382f8a87547a/logo-logo.png",
+    "searchQuery": "favicon",
+    "alternatives": [],
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/c1ad4645-2f7e-42b5-9e74-b0d16832e0a4/favicon-transparent-e844b351-bde8-4f9e-8dac-382f8a87547a/logo-logo.png": {
+        "sessionId": "c1ad4645-2f7e-42b5-9e74-b0d16832e0a4",
+        "logoId": "e844b351-bde8-4f9e-8dac-382f8a87547a",
+        "groupId": "a077aae4-3c8b-46fd-9a12-c367ba3e3290"
+      }
+    },
+    "logoGroupId": "a077aae4-3c8b-46fd-9a12-c367ba3e3290",
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/c1ad4645-2f7e-42b5-9e74-b0d16832e0a4/favicon-transparent-e844b351-bde8-4f9e-8dac-382f8a87547a/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/c1ad4645-2f7e-42b5-9e74-b0d16832e0a4/favicon-original-e844b351-bde8-4f9e-8dac-382f8a87547a/logo-logo.png"
+    },
+    "userModified": false,
+    "createdAt": "2026-11-14T16:33:11.291Z",
+    "lastUpdated": "2026-11-14T16:33:25.127Z",
+    "surfaceMode": "dark",
+    "generatedForSurfaceColor": "#0a1420",
+    "darkSurfaceUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/aba0ed86-ef4e-49d9-8973-ad430e7bb5de/session/c1ad4645-2f7e-42b5-9e74-b0d16832e0a4/favicon-transparent-e844b351-bde8-4f9e-8dac-382f8a87547a/logo-logo.png"
+  },
+  "pages/wellbeing/vr-beach": {
+    "orientations": "horizontal",
+    "minimumSize": "medium",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2200183776",
+    "searchQuery": "pacific ocean shoreline sunset waves beach",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1136417714"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-14T17:20:16.013Z",
+    "lastUpdated": "2026-11-14T17:20:16.013Z",
+    "gettyId": "2200183776",
+    "alternativeGettyIds": [
+      "1136417714"
+    ]
+  },
+  "pages/wellbeing/vr-personal": {
+    "orientations": "horizontal",
+    "minimumSize": "medium",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2266848929",
+    "searchQuery": "cozy home kitchen warm evening light",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2294660641"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-14T17:20:16.506Z",
+    "lastUpdated": "2026-11-14T17:20:16.506Z",
+    "gettyId": "2266848929",
+    "alternativeGettyIds": [
+      "2294660641"
+    ]
+  },
+  "pages/wellbeing/vr-forest": {
+    "orientations": "horizontal",
+    "minimumSize": "medium",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/859650656",
+    "searchQuery": "sunlight through tall pine forest trees",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1039627056"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-14T17:20:16.978Z",
+    "lastUpdated": "2026-11-14T17:20:16.978Z",
+    "gettyId": "859650656",
+    "alternativeGettyIds": [
+      "1039627056"
+    ]
+  },
+  "pages/wellbeing/vr-mountain": {
+    "orientations": "horizontal",
+    "minimumSize": "medium",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1159495128",
+    "searchQuery": "alpine mountain summit sunrise above clouds",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2299587359"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-14T17:20:17.000Z",
+    "lastUpdated": "2026-11-14T17:20:17.000Z",
+    "gettyId": "1159495128",
+    "alternativeGettyIds": [
+      "2299587359"
+    ]
+  },
+  "pages/radiation/solar-event": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2288830404",
+    "searchQuery": "sun surface solar flare space",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1355804084"
+    ],
+    "userModified": false,
+    "createdAt": "2026-11-14T17:22:24.445Z",
+    "lastUpdated": "2026-11-14T17:22:24.445Z",
+    "gettyId": "2288830404",
+    "alternativeGettyIds": [
+      "1355804084"
+    ]
+  }
+}

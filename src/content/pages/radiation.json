@@ -1,0 +1,262 @@
+{
+  "alarms": [
+    {
+      "id": "alert-day140",
+      "level": "alert",
+      "text": "Solar particle event on day 140 — crew sheltered in the service module for 40 minutes. Measured dose inside shelter stayed within limits.",
+      "title": "Solar particle event — Day 140"
+    },
+    {
+      "id": "watch-dose",
+      "level": "watch",
+      "text": "Cumulative dose is tracking 8% above the mission midpoint model. Shielded-work assignment adjustments are under review by flight control.",
+      "title": "Cumulative dose trending high"
+    },
+    {
+      "id": "normal-dosimeter",
+      "level": "normal",
+      "text": "Personal dosimeter readings are consistent across all crew positions this week.",
+      "title": "Dosimeter network nominal"
+    }
+  ],
+  "biomarkers": {
+    "footer": "Blood drawn at the crew health station · next panel scheduled for mission day 155.",
+    "intro": "Bloodwork measures what the external detectors cannot: cellular damage and recovery inside your body. Panels are drawn weekly and trended across the mission.",
+    "items": [
+      {
+        "id": "oxodg",
+        "name": "8-oxo-dG — oxidative DNA stress",
+        "note": "Oxidative DNA damage marker, steady this month.",
+        "reference": "Reference: below 5.0 ng/mL",
+        "series": [
+          3.6,
+          3.5,
+          3.4,
+          3.4,
+          3.3,
+          3.2,
+          3.2
+        ],
+        "status": "normal",
+        "value": "3.2 ng/mL"
+      },
+      {
+        "id": "msi",
+        "name": "Microsatellite instability (MSI)",
+        "note": "Day 142 panel found no unstable markers.",
+        "reference": "Reference: negative (0 of 7 markers)",
+        "series": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "normal",
+        "value": "Negative"
+      },
+      {
+        "id": "wbc",
+        "name": "White blood cell count",
+        "note": "Dip after the day 140 event has fully recovered.",
+        "reference": "Reference: 4.0 – 10.0 ×10⁹/L",
+        "series": [
+          5.9,
+          5.7,
+          5.2,
+          5,
+          5.1,
+          5.3,
+          5.4
+        ],
+        "status": "normal",
+        "value": "5.4 ×10⁹/L"
+      }
+    ],
+    "title": "Biological & blood biomarkers"
+  },
+  "campaigns": [
+    {
+      "date": "2026-11-08 → 11-14",
+      "id": "campaign-current",
+      "label": "Current 7-day campaign",
+      "neutrons": 4812,
+      "note": "Quiet week — galactic background only.",
+      "status": "normal"
+    },
+    {
+      "date": "2026-10-25 → 10-31",
+      "id": "campaign-day140",
+      "label": "Particle event week (day 140)",
+      "neutrons": 9340,
+      "note": "Detects nearly doubled during the solar particle event; shelter protocol activated.",
+      "status": "alert"
+    },
+    {
+      "date": "2026-10-04 → 10-10",
+      "id": "campaign-sep-quiet",
+      "label": "Quiet baseline week",
+      "neutrons": 4520,
+      "note": "Typical background for the station orbit and altitude.",
+      "status": "normal"
+    },
+    {
+      "date": "2026-09-13 → 09-19",
+      "id": "campaign-saa",
+      "label": "South Atlantic Anomaly passes",
+      "neutrons": 5210,
+      "note": "Slightly elevated counts on consecutive passes through the anomaly.",
+      "status": "watch"
+    }
+  ],
+  "explanation": {
+    "bioEffects": {
+      "text": "Radiation dose is one factor in long-term health risk. Space agencies track career dose limits over a lifetime of missions. Your exposures so far remain well inside those limits — this page reports the environment, and the medical team interprets what it means for you.",
+      "title": "What this means for your health"
+    },
+    "monitoring": {
+      "text": "These instruments measure the radiation environment around the station: how many particles arrive, what kind, and how much energy they carry. Detector readings are environmental data — they do not measure anything inside your body.",
+      "title": "What the monitors measure"
+    },
+    "units": [
+      {
+        "id": "unit-dose",
+        "label": "Dose (mSv)",
+        "meaning": "Amount of radiation energy absorbed, adjusted for biological effect."
+      },
+      {
+        "id": "unit-rate",
+        "label": "Dose rate (µSv/h)",
+        "meaning": "How fast dose accumulates at this moment."
+      },
+      {
+        "id": "unit-neutrons",
+        "label": "Neutron counts",
+        "meaning": "How many uncharged particles the detector registered per campaign."
+      }
+    ],
+    "title": "Reading the numbers"
+  },
+  "header": {
+    "subtitle": "Neutron detectors, personal dosimeters and cumulative exposure tracking.",
+    "syncNote": "Detector sync · 45 min ago",
+    "title": "Radiation monitoring"
+  },
+  "shielding": {
+    "comparison": [
+      {
+        "id": "shelter",
+        "label": "Storm shelter (polyethylene)",
+        "value": "3.1 µSv/h"
+      },
+      {
+        "id": "node",
+        "label": "Service module",
+        "value": "7.4 µSv/h"
+      },
+      {
+        "id": "cupola",
+        "label": "Cupola (window-heavy)",
+        "value": "9.2 µSv/h"
+      }
+    ],
+    "id": "shields",
+    "lastUpdated": "Measured during day 140 event",
+    "note": "During a particle event alert, the crew moves to the shielded module until flight control clears the all-clear.",
+    "title": "Shelter spots by dose rate"
+  },
+  "sensors": [
+    {
+      "id": "radi-n2",
+      "location": "Service module window",
+      "name": "Bubble detector (neutrons)",
+      "reading": "18 µSv/day",
+      "series": [
+        16,
+        17,
+        18,
+        17,
+        19,
+        18,
+        18
+      ],
+      "status": "normal",
+      "trend": "stable"
+    },
+    {
+      "id": "dosim-primary",
+      "location": "Crew quarters",
+      "name": "Personal dosimeter — primary",
+      "reading": "0.19 mSv/day",
+      "series": [
+        0.19,
+        0.2,
+        0.19,
+        0.21,
+        0.19,
+        0.2,
+        0.19
+      ],
+      "status": "normal",
+      "trend": "stable"
+    },
+    {
+      "id": "dosim-eVA",
+      "location": "Airlock / EVA suit rack",
+      "name": "EVA dosimeter",
+      "reading": "2.4 mSv/EVA",
+      "series": [
+        2.2,
+        2.4,
+        2.3,
+        2.6,
+        2.5,
+        2.4,
+        2.4
+      ],
+      "status": "normal",
+      "trend": "stable"
+    },
+    {
+      "id": "detector-particle",
+      "location": "External boom",
+      "name": "Charged particle detector",
+      "reading": "elevated",
+      "series": [
+        3,
+        3,
+        4,
+        6,
+        5,
+        4,
+        4
+      ],
+      "status": "watch",
+      "trend": "rising"
+    }
+  ],
+  "trend": {
+    "label": "Cumulative effective dose",
+    "months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "note": "Rate roughly 0.19 mSv/day inside the station; EVA days add a temporary bump. The dip after day 140 reflects time in the shielded module.",
+    "series": [
+      0,
+      5.7,
+      11.6,
+      17.3,
+      23.6,
+      28.1
+    ],
+    "unit": "mSv",
+    "value": "28.1"
+  }
+}

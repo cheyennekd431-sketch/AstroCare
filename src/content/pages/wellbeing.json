@@ -1,0 +1,282 @@
+{
+  "header": {
+    "checkinNote": "Last check-in: today · Mission day 148",
+    "privacyNote": "Your answers stay private — visible only to you and the flight surgeon.",
+    "subtitle": "Weekly check-in, support recommendations and the VR relaxation room.",
+    "title": "Psychological well-being"
+  },
+  "questions": [
+    {
+      "dimension": "Loneliness",
+      "id": "loneliness",
+      "options": [
+        {
+          "id": "2VEKN-Zi4j57YWHi-Hy8V",
+          "label": "Very connected",
+          "score": 0
+        },
+        {
+          "id": "AlWCkyYEnvdwHa1dEKCo-",
+          "label": "Mostly connected",
+          "score": 1
+        },
+        {
+          "id": "Sxdnjgjfn9wENwNcGq_-3",
+          "label": "Somewhat isolated",
+          "score": 2
+        },
+        {
+          "id": "mmFhygoH0NIkD_jqVtX4m",
+          "label": "Very isolated",
+          "score": 3
+        }
+      ],
+      "question": "How connected have you felt to family, friends and crew this week?"
+    },
+    {
+      "dimension": "Stress",
+      "id": "stress",
+      "options": [
+        {
+          "id": "hRTp-CEAdE1BUWDmbxrrX",
+          "label": "Calm",
+          "score": 0
+        },
+        {
+          "id": "sRw4iXOEu-EA0sgnUilJY",
+          "label": "Manageable",
+          "score": 1
+        },
+        {
+          "id": "QdG3BqCIdFI1kLpbWuI31",
+          "label": "Elevated",
+          "score": 2
+        },
+        {
+          "id": "MQ3gEeI0TO_YIwJtjIH21",
+          "label": "Overwhelming",
+          "score": 3
+        }
+      ],
+      "question": "How would you rate your overall stress level this week?"
+    },
+    {
+      "dimension": "Mood",
+      "id": "mood",
+      "options": [
+        {
+          "id": "3pMZbBWQYKfjr6HQPZket",
+          "label": "Positive and steady",
+          "score": 0
+        },
+        {
+          "id": "Hy5b0pYqtBwSyfZBkvl-W",
+          "label": "Generally fine",
+          "score": 1
+        },
+        {
+          "id": "Yz75xYvQIQxQQw8LNiCbA",
+          "label": "Often low",
+          "score": 2
+        },
+        {
+          "id": "LA9HWl7bH9OVDcO6MlX8s",
+          "label": "Persistently low",
+          "score": 3
+        }
+      ],
+      "question": "How has your mood been on most days?"
+    },
+    {
+      "dimension": "Sleep",
+      "id": "sleep",
+      "options": [
+        {
+          "id": "76s3g5K86wsvIF5lWhAVy",
+          "label": "Consistently restful",
+          "score": 0
+        },
+        {
+          "id": "EIo37pINvB9zd3BAK99yJ",
+          "label": "Mostly restful",
+          "score": 1
+        },
+        {
+          "id": "8nGh57k-rPwlzG9JmRLoW",
+          "label": "Frequently interrupted",
+          "score": 2
+        },
+        {
+          "id": "ure6a1xg4p3f12Fai-1Ur",
+          "label": "Poor most nights",
+          "score": 3
+        }
+      ],
+      "question": "How restful has your sleep been?"
+    },
+    {
+      "dimension": "Motivation",
+      "id": "motivation",
+      "options": [
+        {
+          "id": "2wCjpm92WHUmRZvbN3u_U",
+          "label": "Fully motivated",
+          "score": 0
+        },
+        {
+          "id": "XJAeDWxCFeJ_KbcDVbbyj",
+          "label": "Mostly motivated",
+          "score": 1
+        },
+        {
+          "id": "AXZ_nVF_2WtOPY7M4vFPH",
+          "label": "Struggling to start",
+          "score": 2
+        },
+        {
+          "id": "upWMuf_dwaNNFc3XPYCgL",
+          "label": "Unable to engage",
+          "score": 3
+        }
+      ],
+      "question": "How motivated have you felt for daily tasks and exercise?"
+    },
+    {
+      "dimension": "Confinement",
+      "id": "confinement",
+      "options": [
+        {
+          "id": "EYjeaEdZn0inJHuwCecMd",
+          "label": "Comfortable",
+          "score": 0
+        },
+        {
+          "id": "UDex9i4C8-gW4Yk9pV4so",
+          "label": "Occasionally restless",
+          "score": 1
+        },
+        {
+          "id": "95Qs1zPD_bOPGEM85nztk",
+          "label": "Frequently restless",
+          "score": 2
+        },
+        {
+          "id": "40Z9asousu4VyKkB9W6v0",
+          "label": "Very difficult",
+          "score": 3
+        }
+      ],
+      "question": "How are you coping with the confined environment?"
+    }
+  ],
+  "miniTest": {
+    "disclaimer": "Results are trend data for the medical team, not a diagnosis.",
+    "idleHint": "Run the check to record today's objective baseline.",
+    "normalText": "Reaction time and motor accuracy are within your mission baseline — no objective signs of fatigue.",
+    "watchText": "Slower than your usual baseline. Consider extra rest before your next EVA or heavy task load, and mention it at the next medical check.",
+    "reactionHow": "Tap the lit target as soon as it appears. Five rounds, one average reaction time.",
+    "traceHow": "Drag from left to right and keep the cursor inside the channel. Accuracy is scored automatically.",
+    "subtitle": "Objective measurements alongside your weekly survey — they catch radiation-related brain fatigue that self-reports miss.",
+    "title": "2-minute cognitive & motor check"
+  },
+  "recommendations": [
+    {
+      "audience": "loneliness",
+      "id": "rec-family",
+      "text": "Schedule a private comms window with family or friends this week — protected time with no mission tasks.",
+      "title": "Connect with home"
+    },
+    {
+      "audience": "stress",
+      "id": "rec-breathing",
+      "text": "Two guided breathing sessions per day, 10 minutes each. Pair them with the VR relaxation room.",
+      "title": "Guided breathing protocol"
+    },
+    {
+      "audience": "sleep",
+      "id": "rec-sleep",
+      "text": "Shift your light exposure and move your last espresso earlier. The crew medical team can adjust your sleep prescription.",
+      "title": "Sleep schedule reset"
+    },
+    {
+      "audience": "confinement",
+      "id": "rec-social",
+      "text": "Join the Saturday crew dinner and one shared exercise block — social contact is the strongest buffer in long missions.",
+      "title": "Crew social time"
+    },
+    {
+      "audience": "mood",
+      "id": "rec-motion",
+      "text": "Add one low-effort walk on the treadmill after dinner. Gentle movement reliably lifts mood within days.",
+      "title": "Movement snack"
+    },
+    {
+      "audience": "attention",
+      "id": "rec-surgeon",
+      "text": "Book a private session with the flight surgeon. This is routine support, not an emergency — reaching out early is the protocol.",
+      "title": "Talk to the flight surgeon"
+    }
+  ],
+  "resultBands": [
+    {
+      "id": "560EGFz1GONEB36WcRyC4",
+      "max": 5,
+      "min": 0,
+      "status": "normal",
+      "text": "Your indicators look healthy. Keep the current routine of exercise, sleep and crew contact.",
+      "title": "All clear"
+    },
+    {
+      "id": "iLgymFPeTYaIgd5nXC1j4",
+      "max": 11,
+      "min": 6,
+      "status": "watch",
+      "text": "A few areas need attention. The recommendations below target exactly those areas — small adjustments usually help within a week.",
+      "title": "Keep an eye on it"
+    },
+    {
+      "id": "eRTCcqt0hfw7sVTvRp4za",
+      "max": 18,
+      "min": 12,
+      "status": "attention",
+      "text": "Several indicators are elevated. Please book a private session with the flight surgeon — this is normal practice and completely confidential.",
+      "title": "Talk to the flight surgeon"
+    }
+  ],
+  "vrRoom": {
+    "disclaimer": "Simulated preview — the headset streams these environments on the flight system.",
+    "environments": [
+      {
+        "description": "Warm sand, rolling surf and a slow sunset over the water.",
+        "duration": "15 min",
+        "id": "beach",
+        "name": "Pacific shoreline",
+        "soundscape": "Waves + gulls"
+      },
+      {
+        "description": "Filtered sunlight through tall pines, birdsong and a soft breeze.",
+        "duration": "20 min",
+        "id": "forest",
+        "name": "Temperate pine forest",
+        "soundscape": "Wind + birds"
+      },
+      {
+        "description": "Thin clear air at sunrise, panoramic ridgelines and drifting cloud.",
+        "duration": "20 min",
+        "id": "mountain",
+        "name": "Alpine summit",
+        "soundscape": "High wind"
+      },
+      {
+        "description": "Your own places — the home kitchen, the garden, a familiar street. Recorded on Earth and streamed in high fidelity.",
+        "duration": "Custom",
+        "id": "personal",
+        "name": "Personal places",
+        "soundscape": "Ambient"
+      }
+    ],
+    "note": "Session length adapts to your schedule. Data is used only to tune your relaxation plan.",
+    "subtitle": "Guided immersive environments to lower stress and improve sleep quality.",
+    "title": "VR relaxation room"
+  }
+}

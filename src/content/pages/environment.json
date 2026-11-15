@@ -1,0 +1,180 @@
+{
+  "header": {
+    "subtitle": "Cabin air, microbial checks and the lighting that keeps your body clock on Earth time.",
+    "syncNote": "Air sampler sync · 20 min ago",
+    "title": "Environment & circadian light"
+  },
+  "air": {
+    "title": "Cabin air",
+    "note": "The atmospheric revitalization loop refreshes cabin air continuously. Elevated CO2 usually means a scrubber cartridge needs rotation — it is an equipment task, not a health emergency.",
+    "sensors": [
+      {
+        "id": "co2",
+        "name": "Carbon dioxide (CO2)",
+        "note": "Scrubber cycle nominal.",
+        "reference": "Target: below 4,000 ppm",
+        "series": [
+          2950,
+          2920,
+          2890,
+          2905,
+          2870,
+          2880,
+          2880
+        ],
+        "status": "normal",
+        "value": "2,880 ppm"
+      },
+      {
+        "id": "o2",
+        "name": "Oxygen (O2)",
+        "note": "Partial pressure 155 mmHg.",
+        "reference": "Target: 19.5 – 23.0 %",
+        "series": [
+          20.8,
+          20.9,
+          21,
+          20.9,
+          20.8,
+          20.9,
+          20.9
+        ],
+        "status": "normal",
+        "value": "20.9 %"
+      }
+    ]
+  },
+  "swabs": {
+    "subtitle": "Weekly swabs of touch surfaces catch bacteria and mold before they become allergies or infections.",
+    "title": "Microbial swab checks",
+    "mapNote": "Tap a station marker for its latest result.",
+    "legend": [
+      {
+        "id": "legend-clear",
+        "label": "Clear — no growth",
+        "level": "normal"
+      },
+      {
+        "id": "legend-watch",
+        "label": "Watch — trace found, action scheduled",
+        "level": "watch"
+      }
+    ],
+    "points": [
+      {
+        "area": "Galley & food prep",
+        "detail": "No growth after 48 h incubation.",
+        "id": "galley",
+        "lastChecked": "Day 147",
+        "result": "clear",
+        "x": 30,
+        "y": 62
+      },
+      {
+        "area": "Exercise station",
+        "detail": "Low-level skin flora detected — extra wipe-down scheduled day 149.",
+        "id": "exercise",
+        "lastChecked": "Day 147",
+        "result": "watch",
+        "x": 68,
+        "y": 40
+      },
+      {
+        "area": "Cupola windows",
+        "detail": "No growth after 48 h incubation.",
+        "id": "cupola",
+        "lastChecked": "Day 146",
+        "result": "clear",
+        "x": 82,
+        "y": 66
+      },
+      {
+        "area": "Crew quarters",
+        "detail": "No growth after 48 h incubation.",
+        "id": "quarters",
+        "lastChecked": "Day 147",
+        "result": "clear",
+        "x": 18,
+        "y": 30
+      },
+      {
+        "area": "Waste & hygiene compartment",
+        "detail": "Humidity mold trace — HEPA filter swap queued day 150.",
+        "id": "hygiene",
+        "lastChecked": "Day 145",
+        "result": "watch",
+        "x": 12,
+        "y": 72
+      },
+      {
+        "area": "Laboratory bench",
+        "detail": "No growth after 48 h incubation.",
+        "id": "lab",
+        "lastChecked": "Day 146",
+        "result": "clear",
+        "x": 55,
+        "y": 76
+      }
+    ]
+  },
+  "circadian": {
+    "subtitle": "Scripted lighting keeps the crew's body clocks on Houston time.",
+    "title": "Earth-simulating light control",
+    "sleepSync": "Synced to your sleep log — lights out 21:30, wake 06:30.",
+    "modes": [
+      {
+        "detail": "Suppresses melatonin and keeps reaction time sharp during work hours.",
+        "hours": "06:00 – 20:00",
+        "id": "alert",
+        "light": "Cool blue-white LED",
+        "name": "Daytime alertness mode"
+      },
+      {
+        "detail": "Amber spectrum lets melatonin rise naturally before lights-out.",
+        "hours": "20:00 – 21:30",
+        "id": "recovery",
+        "light": "Warm amber LED",
+        "name": "Pre-sleep recovery mode"
+      },
+      {
+        "detail": "Full darkness for consolidated sleep — matching your logged 7.2 h average.",
+        "hours": "21:30 – 06:00",
+        "id": "dark",
+        "light": "Lights out",
+        "name": "Sleep window"
+      }
+    ],
+    "schedule": [
+      {
+        "from": 0,
+        "id": "night",
+        "mode": "dark",
+        "to": 6
+      },
+      {
+        "from": 6,
+        "id": "dawn",
+        "mode": "alert",
+        "to": 8
+      },
+      {
+        "from": 8,
+        "id": "workday",
+        "mode": "alert",
+        "to": 20
+      },
+      {
+        "from": 20,
+        "id": "presleep",
+        "mode": "recovery",
+        "to": 21.5
+      },
+      {
+        "from": 21.5,
+        "id": "sleep",
+        "mode": "dark",
+        "to": 24
+      }
+    ]
+  }
+}

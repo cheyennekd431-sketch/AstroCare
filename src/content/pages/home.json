@@ -1,0 +1,542 @@
+{
+  "mission": {
+    "astronaut": "Cmdr. R. Vega",
+    "crew": "ISS · Destiny Laboratory",
+    "day": 148,
+    "dayLabel": "Mission day",
+    "headline": "Health Console",
+    "scanStatus": "Last full-body scan: T-2 h · nominal",
+    "subhead": "Whole-body status, microgravity effects and daily vitals at a glance.",
+    "title": "AstroCare Health Console"
+  },
+  "scanner": {
+    "hint": "Select a layer, then tap any glowing region of the body to open its detail panel.",
+    "layers": [
+      {
+        "desc": "Overall health overview",
+        "id": "full",
+        "name": "Full body"
+      },
+      {
+        "desc": "Mass, strength & atrophy",
+        "id": "muscular",
+        "name": "Muscular"
+      },
+      {
+        "desc": "Bone density & structure",
+        "id": "skeletal",
+        "name": "Skeletal"
+      }
+    ],
+    "regions": [
+      {
+        "carlitosNote": "In microgravity, body fluids drift toward the head. That mild pressure rise is why headaches are more common up here — I track them so the medical team sees the pattern early.",
+        "id": "brain",
+        "layer": "full",
+        "metrics": [
+          {
+            "delta": "+2 vs. baseline",
+            "id": "fNZAEC_arwXkWuC5EV9p6",
+            "label": "Intracranial pressure",
+            "value": "12 mmHg"
+          },
+          {
+            "delta": "Mild intensity",
+            "id": "ncOZ-f5rgZMpDuY_0Aak6",
+            "label": "Headaches logged",
+            "value": "2 this week"
+          }
+        ],
+        "name": "Brain & head",
+        "status": "watch",
+        "summary": "Mild intracranial pressure increase from the upward fluid shift.",
+        "trend": "Headache frequency up since week 18"
+      },
+      {
+        "carlitosNote": "Without gravity pulling fluids down, the eye changes shape very slightly. It is called SANS and crews have monitored it for years — your checks are right on schedule.",
+        "id": "eyes",
+        "layer": "full",
+        "metrics": [
+          {
+            "delta": "-1 line vs. baseline",
+            "id": "3wy1Z24lyMtf63UeqrfKT",
+            "label": "Visual acuity",
+            "value": "20/25"
+          },
+          {
+            "delta": "Weekly protocol",
+            "id": "j9if85xhEVoeFXyjlSRka",
+            "label": "Last vision check",
+            "value": "Day 141"
+          }
+        ],
+        "name": "Eyes & vision",
+        "status": "watch",
+        "summary": "Slight flattening at the back of the eye — the known SANS pattern.",
+        "trend": "Acuity change first noted day 132"
+      },
+      {
+        "carlitosNote": "Your heart is a muscle, and in space it does not have to pump against gravity — so it can slowly detrain. Your cardio sessions are keeping it in shape. Well done.",
+        "id": "heart",
+        "layer": "full",
+        "metrics": [
+          {
+            "delta": "-3 vs. launch",
+            "id": "t2KlZwvuIv2_FgGL4fCJA",
+            "label": "Resting heart rate",
+            "value": "64 bpm"
+          },
+          {
+            "delta": "Stable",
+            "id": "FAIsAMAGSVdCFueVb-xT6",
+            "label": "Blood pressure",
+            "value": "118/74"
+          }
+        ],
+        "name": "Heart",
+        "status": "normal",
+        "summary": "Cardiac muscle mass, rhythm and blood pressure all stable.",
+        "trend": "Resting heart rate trending down"
+      },
+      {
+        "carlitosNote": "A small, steady mass loss is expected on long missions — your nutrition and exercise plans are designed around it. Nothing here needs action.",
+        "id": "abdomen",
+        "layer": "full",
+        "metrics": [
+          {
+            "delta": "-1.8 kg since launch",
+            "id": "PqPsYTYiw-QhvhjqK-_hk",
+            "label": "Body mass",
+            "value": "71.4 kg"
+          },
+          {
+            "delta": "Fluid protocol on schedule",
+            "id": "779cf5p2nMC3gU5hVMrRd",
+            "label": "Hydration",
+            "value": "Well balanced"
+          }
+        ],
+        "name": "Abdomen & core",
+        "status": "normal",
+        "summary": "Digestion, hydration and fluid balance nominal.",
+        "trend": "No change"
+      },
+      {
+        "carlitosNote": "Funny side effect of space: without gravity squeezing your spine, you literally grow a few centimeters by 'morning'. Your discs re-hydrate — the stiffness usually fades after a good exercise session.",
+        "id": "lumbar",
+        "layer": "skeletal",
+        "metrics": [
+          {
+            "delta": "-1.8% since launch",
+            "id": "NVh7BbwG6A7hhDi_93tSn",
+            "label": "Lumbar BMD",
+            "value": "1.09 g/cm²"
+          },
+          {
+            "delta": "Expected in flight",
+            "id": "d6erwjLqqEadUyhHNon20",
+            "label": "Disc hydration",
+            "value": "Slightly elevated"
+          }
+        ],
+        "name": "Lumbar spine",
+        "status": "watch",
+        "summary": "Vertebral discs expand slightly without gravity — mild stiffness reported.",
+        "trend": "Transient height gain of about 4 cm"
+      },
+      {
+        "carlitosNote": "Your femur is the longest, strongest bone you have — and in microgravity it slowly gives up calcium because it is not carrying your weight. The good news: your loss rate is slowing and it stays inside mission limits. Keep up the resistance training and we will watch it together.",
+        "id": "femur",
+        "layer": "skeletal",
+        "metrics": [
+          {
+            "delta": "-1.2% vs. pre-flight",
+            "id": "bSPZd1mT676iW288TL_4g",
+            "label": "Bone mineral density",
+            "value": "1.18 g/cm²"
+          },
+          {
+            "delta": "-3% vs. pre-flight",
+            "id": "t--doIjfAQCMp2QJNiElZ",
+            "label": "Cortical thickness, mid-shaft",
+            "value": "8.6 mm"
+          },
+          {
+            "delta": "Loss rate slowing",
+            "id": "SzUTm4_5TgyHJaPbldjVO",
+            "label": "Last scan comparison",
+            "value": "Day 140 vs. pre-flight"
+          }
+        ],
+        "name": "Femur (left)",
+        "status": "watch",
+        "summary": "Load-bearing bone losing density slowly under reduced gravity — countermeasures are limiting the loss.",
+        "trend": "1.2% below pre-flight baseline"
+      },
+      {
+        "carlitosNote": "Muscles on the front of the thighs do a lot of quiet work on Earth — standing, walking, braking. In orbit they get lazy. Daily resistance exercise is the antidote, and your numbers show it is working, just not completely yet.",
+        "id": "quadriceps",
+        "layer": "muscular",
+        "metrics": [
+          {
+            "delta": "-8.4% vs. pre-flight",
+            "id": "eFydD_bwC69wWzvd0CaOQ",
+            "label": "Lean mass",
+            "value": "3.9 kg"
+          },
+          {
+            "delta": "-12% since launch",
+            "id": "r9S8TmkbE6xXS50cgJZ38",
+            "label": "Knee extension strength",
+            "value": "88% of baseline"
+          }
+        ],
+        "name": "Quadriceps (right)",
+        "status": "watch",
+        "summary": "Front-thigh muscles thinning without daily gravity loading.",
+        "trend": "8.4% lean mass loss since launch"
+      },
+      {
+        "carlitosNote": "Your calves are the success story of this mission — the exercise prescription is tuned just right for them. If only the quadriceps took notes.",
+        "id": "calves",
+        "layer": "muscular",
+        "metrics": [
+          {
+            "delta": "-5.1% vs. pre-flight",
+            "id": "uah6dWh7KJlTVm344j4Ct",
+            "label": "Lean mass",
+            "value": "2.6 kg"
+          },
+          {
+            "delta": "-2.4% since launch",
+            "id": "Pv1b96qPrSvDR7cZ7ZQdu",
+            "label": "Calf circumference",
+            "value": "33.1 cm"
+          }
+        ],
+        "name": "Calves",
+        "status": "normal",
+        "summary": "Lower-leg muscles responding well to the resistance exercise plan.",
+        "trend": "Loss slowing to 0.3% per month"
+      }
+    ],
+    "title": "Anatomical scanner"
+  },
+  "carlitos": {
+    "disclaimer": "Carlitos explains and guides — he never diagnoses or prescribes. For medical decisions, talk to your flight surgeon.",
+    "greeting": "Carlitos · your digital health guide",
+    "messages": [
+      {
+        "author": "carlitos",
+        "id": "WyhSqPDuVDpEefxEIG9Hq",
+        "text": "Welcome back, Commander. Systems are green and today's full-body scan finished two hours ago."
+      },
+      {
+        "author": "carlitos",
+        "id": "nu66LlV-Lv37CvOUk9I7d",
+        "text": "Want to look at something specific? Try asking me: \"I want to check my femur.\""
+      },
+      {
+        "author": "user",
+        "id": "2JwBrsCCYB9Vz0qhRbc84",
+        "text": "Carlitos, I want to check my femur."
+      },
+      {
+        "author": "carlitos",
+        "id": "GD4sj-mWkmx2T3iuXY7EB",
+        "text": "Easy. Switch to the Skeletal layer, then tap your left thigh — the femur panel opens with all your density readings. Short version: 1.18 g/cm², about 1.2% below pre-flight. That is normal for day 148, and your countermeasure exercise is holding the line."
+      }
+    ],
+    "name": "Carlitos",
+    "placeholder": "Ask Carlitos anything…",
+    "quickAsks": [
+      "Why do my legs feel weaker?",
+      "What's happening to my bones?",
+      "Am I losing muscle?",
+      "Why do I get headaches up here?",
+      "How is my heart holding up?",
+      "Is my vision getting worse?"
+    ],
+    "role": "Your digital health guide"
+  },
+  "emergency": {
+    "confirmText": "Priority channel opened — flight surgeon on call. (Simulated in this prototype. On the flight system, this routes through the authorized spacecraft comms link.)",
+    "intro": "Serious or sudden symptoms need prompt communication with mission medical personnel. Do not wait and see — call it in.",
+    "primaryAction": "Open channel to Mission Control",
+    "protocols": [
+      {
+        "id": "QdhEV6yUaiIxp53Qaz4IS",
+        "summary": "Stabilize, call the flight surgeon, prepare medical kit A.",
+        "title": "Medical emergency onboard · MED-01"
+      },
+      {
+        "id": "WZpoqqupwzUo72Ns26HIQ",
+        "summary": "Immobilize, monitor pupil response, log vitals every 15 minutes.",
+        "title": "Head injury protocol · MED-07"
+      },
+      {
+        "id": "5Erd1dRBphX_f5QUUH-xq",
+        "summary": "Suspect decompression sickness with joint pain plus numbness — begin pure oxygen.",
+        "title": "Decompression symptoms · MED-12"
+      }
+    ],
+    "secondaryAction": "Request medical assistance",
+    "shareItems": [
+      {
+        "id": "IZSaUzIHfXJCJ3H9EUllR",
+        "label": "Heart rate (24 h avg)",
+        "value": "66 bpm"
+      },
+      {
+        "id": "OTAl3zhFAOqRnnGjnCiV6",
+        "label": "Last blood pressure",
+        "value": "118/74 mmHg"
+      },
+      {
+        "id": "s1YTonQw9QtRlpigUXVqO",
+        "label": "Symptoms logged",
+        "value": "2 headaches, mild (week 21)"
+      },
+      {
+        "id": "wRI51Pzqxn_RUcirRk9hH",
+        "label": "Radiation, last 7 days",
+        "value": "6.8 mSv"
+      }
+    ],
+    "shareTitle": "Shared with the medical team",
+    "title": "Emergency medical assistance",
+    "triage": {
+      "burstNote": "Queued — transmits automatically to flight control when comms return.",
+      "burstStatus": "Queued to Earth",
+      "burstTitle": "Auto-packaged burst report",
+      "burstItems": [
+        {
+          "id": "burst-vitals",
+          "label": "Vitals snapshot",
+          "value": "HR 64 · BP 118/74 · SpO2 98%"
+        },
+        {
+          "id": "burst-dose",
+          "label": "Cumulative dose",
+          "value": "28.1 mSv"
+        },
+        {
+          "id": "burst-symptoms",
+          "label": "Symptoms, last 7 days",
+          "value": "2 headaches, mild"
+        },
+        {
+          "id": "burst-scan",
+          "label": "Last full-body scan",
+          "value": "T-2 h · nominal"
+        }
+      ],
+      "commsAction": "Try Mission Control channel",
+      "kitLabel": "Med kit",
+      "protocols": [
+        {
+          "id": "spe-shelter",
+          "kit": "Radiation kit · service module, rack B2",
+          "severity": "Time-critical",
+          "steps": [
+            "Move to the storm shelter in the service module immediately — do not stop to collect equipment.",
+            "Log your shelter entry time; flight control models your dose from it later.",
+            "Take the Radiation kit from rack B2: two anti-nausea doses and a dosimeter badge.",
+            "Stay inside until the station-wide all-clear, or 40 minutes minimum.",
+            "Report any headache, nausea or unusual metallic taste in the symptom log when you return."
+          ],
+          "title": "Solar particle event — shelter protocol",
+          "tone": "alert"
+        },
+        {
+          "id": "sans-eye",
+          "kit": "Ophthalmic kit · Destiny lab, drawer 3",
+          "severity": "Same-day",
+          "steps": [
+            "Sit facing the A4 vision chart at arm's length — one eye covered, good light.",
+            "Read down the chart; note the lowest line you can resolve for each eye.",
+            "Compare with your last logged acuity: 20/25 on day 141.",
+            "If blur is sudden, one-sided or with flashes, log it as urgent — do not delay.",
+            "Record both readings in the symptom log; the flight surgeon trends SANS weekly."
+          ],
+          "title": "Acute eye / SANS check",
+          "tone": "watch"
+        },
+        {
+          "id": "triage-general",
+          "kit": "Medical kit A · crew health station",
+          "severity": "Immediate",
+          "steps": [
+            "Stabilize the crew member: airway, bleeding, consciousness — in that order.",
+            "Open Medical kit A at the crew health station; the red tray holds the airway kit.",
+            "Take vitals every 15 minutes and write each reading on the triage card.",
+            "Keep the burst-report checklist running — it snapshots your vitals automatically.",
+            "Retry the comms link every 15 minutes; until it opens, continue the protocol."
+          ],
+          "title": "Medical emergency onboard",
+          "tone": "alert"
+        }
+      ],
+      "stepsLabel": "Step",
+      "subtitle": "Comms link unavailable or down. Work the offline protocol below — the burst report sends itself the moment the link returns.",
+      "title": "No-comms medical triage",
+      "viewComms": "Mission Control comms",
+      "viewTriage": "Offline triage"
+    }
+  },
+  "statusbar": {
+    "sensors": [
+      {
+        "id": "Hlm4lqF5U5aGc1DDoSiGK",
+        "name": "Radi-N2 neutron detector",
+        "state": "nominal"
+      },
+      {
+        "id": "Ow9z0sEP8BGQ-Ix_SBRrg",
+        "name": "Crew dosimeter",
+        "state": "active"
+      },
+      {
+        "id": "TMi4xynuiNgPCNOTfUzxF",
+        "name": "Comms relay",
+        "state": "nominal"
+      }
+    ]
+  },
+  "vitals": [
+    {
+      "delta": "-3 vs. launch",
+      "id": "heart-rate",
+      "label": "Resting heart rate",
+      "note": "Cardiac deconditioning well controlled.",
+      "series": [
+        72,
+        70,
+        69,
+        71,
+        68,
+        66,
+        65,
+        64
+      ],
+      "status": "normal",
+      "unit": "bpm",
+      "value": "64"
+    },
+    {
+      "delta": "Stable",
+      "id": "blood-pressure",
+      "label": "Blood pressure",
+      "note": "Morning readings, crew medical station.",
+      "series": [
+        122,
+        121,
+        120,
+        119,
+        118,
+        118,
+        117,
+        118
+      ],
+      "status": "normal",
+      "unit": "mmHg",
+      "value": "118/74"
+    },
+    {
+      "delta": "-1.2% since launch",
+      "id": "bone-density",
+      "label": "Bone mineral density",
+      "note": "Countermeasure exercise holding losses near mission limits.",
+      "series": [
+        1.21,
+        1.205,
+        1.2,
+        1.195,
+        1.19,
+        1.185,
+        1.182,
+        1.18
+      ],
+      "status": "watch",
+      "unit": "g/cm² · femoral neck",
+      "value": "1.18"
+    },
+    {
+      "delta": "-3.1% since launch",
+      "id": "muscle-mass",
+      "label": "Lean muscle mass",
+      "note": "Quadriceps and calves respond to daily ARED sessions.",
+      "series": [
+        56,
+        55.8,
+        55.5,
+        55.2,
+        54.9,
+        54.6,
+        54.4,
+        54.2
+      ],
+      "status": "watch",
+      "unit": "kg",
+      "value": "54.2"
+    },
+    {
+      "delta": "Within mission budget",
+      "id": "radiation",
+      "label": "Cumulative radiation",
+      "note": "Neutron component from Radi-N2: 0.9 mSv this week.",
+      "series": [
+        8,
+        12,
+        16,
+        21,
+        26,
+        31,
+        37,
+        42.6
+      ],
+      "status": "normal",
+      "unit": "mSv",
+      "value": "42.6"
+    },
+    {
+      "delta": "Sleep efficiency down 6%",
+      "id": "wellbeing",
+      "label": "Sleep & mood snapshot",
+      "note": "Two short nights after the solar particle event alert.",
+      "series": [
+        7.9,
+        8.1,
+        7.6,
+        7.2,
+        7,
+        7.4,
+        7.1,
+        7.2
+      ],
+      "status": "watch",
+      "unit": "avg sleep · mood 7.2/10",
+      "value": "7:12"
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "KH4sO03JmSFpi9OvkOe0Y",
+      "level": "normal",
+      "text": "42.6 mSv cumulative — within mission limits. No solar particle events in the last 9 days.",
+      "title": "Radiation exposure"
+    },
+    {
+      "id": "XKKmMGmliOIdXUxlYkyoo",
+      "level": "watch",
+      "text": "Slight far-vision blur reported on day 132. Weekly vision checks continue.",
+      "title": "Vision changes (SANS)"
+    },
+    {
+      "id": "4g-KrESQyE7t8mbiLgHSF",
+      "level": "watch",
+      "text": "Two mild headaches logged this week — consistent with fluid shift. Log symptoms if they intensify.",
+      "title": "Head pressure & headaches"
+    }
+  ]
+}
