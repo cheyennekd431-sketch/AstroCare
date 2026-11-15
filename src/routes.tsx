@@ -37,7 +37,7 @@ export const routes: RouteObject[] = [
   {
     id: 'airo-not-found',
     path: '*',
-    element: <NotFoundPage />,
+    element: <HomePage />,
   },
 ];
 
